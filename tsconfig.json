@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		// "outDir": "out",
+		// "sourceMap": true,
+		"esModuleInterop": true,
+		// "resolveJsonModule": true,
+		"moduleResolution": "nodenext",
+		"module": "nodenext",
+		"isolatedModules": true
+		// temp fix for anchor version mismatch from @debridge-finance/solana-transaction-parser
+		// "skipLibCheck": true
+	}
+	// "include": [
+	//     "src",
+	//     "src/idls/pumpfunIdlType.ts",
+	//     "src/idls/jupiter_v6.ts"
+	// ]
+}
