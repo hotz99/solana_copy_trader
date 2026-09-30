@@ -11,7 +11,7 @@ This bot copies the token trades of a Solana wallet. It monitors a source wallet
 - Sells positions with take-profit and stop-loss limits.
 - Sends transactions through Jito with a tip.
 - Two modes:
-  - `COPY`: Copy the buys and sells of the source wallet.
+  - `COPY`: Copy the buys of the source wallet. Sell with the take-profit and stop-loss limits.
   - `SELLING`: Sell all active positions.
 
 ## Setup
